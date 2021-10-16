@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.875em;
+}
+
+.gallery {
+    padding: 10px 0;
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 5px 50px 5px 50px;
+    background-color: whitesmoke;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 264px);padding: 50px;
+    margin: 38px;
+    grid-gap: 5px;
+    /*grid-column-gap: 10px;*/
+    /*grid-row-gap: 10px;*/
+
+}
+.grid-container >div {
+    width: 352px;
+    height: 254px;
+    border-radius: 15px;
+}
+/*one box, add max-width 100% for img*/
+.box img {
+    max-width: 100%;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: white;
+}
+.subscribe-box {
+    /*margin: -37px;*/
+}
+.subscribe-box > div  {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-box .title {
+    text-align: center;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    /*font-size: 1.875em;*/
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.copy {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.875;
+    color: #848690;
+}
+.actions input{
+    /*display: block;*/
+    /*margin: 85px auto 0;*/
+    width: 20%;
+    font-size: 18px;
+    background-color: whitesmoke;
+    padding: 7px 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    text-align: left;
+}
+.actions button {
+    width: 5%;
+    font-size: 18px;
+    padding: 7px 10px;
+    margin: 9px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa {
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+

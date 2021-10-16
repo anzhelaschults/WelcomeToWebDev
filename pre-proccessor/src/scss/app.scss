@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.block {
+  padding: 50px 0;
+  background-color: pink;
+}
+background: {
+  image: url('#')
+}
+  &__logo {
+    font-weight: 700;
+    img {
+      max-width: 100%;
+    }
+  }
+}

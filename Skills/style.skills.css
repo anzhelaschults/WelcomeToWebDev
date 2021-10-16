@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Merienda One', sans-serif;
+    font-size: 72px;
+}
+.skills {
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+
+.text-container {
+    background-color: #fe5b86;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 100px 150px 100px 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: 400;
+}
+.btn-text {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    /*size: 16px;*/
+    font-size: 18px;
+    border-style: solid;
+    border-width: 2px;
+    background-image: none;
+    margin: 27px auto 0 0;
+    padding: 10px 58px 11px 56px;
+}
+.btn-text:hover {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.woman {
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/6c2a65433d3e5c0eb8ed157a/e5a06451-6630-a7cc-8403-1eeaf94896e5.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 450px;*/
+    position: absolute;
+    top: 100px;
+    right:50px;
+    width: 30%;
+}
+.woman > img {
+    position: relative;
+    top: -50px;
+    left: -50px;
+    width:100%;
+}
+.stripes-box {
+    /*background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/6c2a65433d3e5c0eb8ed157a/e5a06451-6630-a7cc-8403-1eeaf94896e5.png");*/
+}

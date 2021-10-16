@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+/*@media (min-width: 768px) {*/
+
+    .avatar img {
+        border-radius: 50%;
+        width: 50px;
+        margin-bottom: 30px;
+    }
+    img {
+        width: 60%;
+    }
+/*}*/
+
+/*}*/
+/*@media (min-width: 1024px) {*/
+.action-content {
+    margin-top: 80px;
+}
+ h2 {
+    font-size: 2.751em;
+    font-weight: 600;
+     line-height: 1;
+     margin-bottom: 50px;
+}
+ p {
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.875;
+}
+ .form {
+     margin-top: 15px;
+ }
+.form input{
+    width: 40%;
+    font-size: 18px;
+    background-color: whitesmoke;
+    padding: 7px 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    text-align: left;
+}
+.form button {
+    width: 20%;
+    font-size: 18px;
+    padding: 7px 10px;
+    margin: 9px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex> div {
+    width: 45%;
+}
+.customers {
+    padding: 70px 0;
+
+}
+.list-of-avatars {
+    display: flex;
+    justify-content: space-between;
+}
+.avatar img {
+    border-radius: 50%;
+    width: 104px;
+    margin-bottom: 30px;
+}
+
+
+.avatar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 100%;
+}
+
+.customers h3 {
+    font-size: 1em;
+    line-height: 1.625;
+    font-weight: 500;
+}
+.customers p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+.visuals p {
+    font-size: 1.25em;
+    line-height: 1.875;
+    font-weight: 400;
+}
+.visuals-action {
+    margin-top: 110px;
+}
+.visuals-action button {
+    width: 20%;
+    font-size: 18px;
+    padding: 7px 10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+/*}*/
+
+/*@media (min-width: 1280px) {}*/
+
+

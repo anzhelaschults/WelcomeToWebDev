@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4861df;
+    font-size: 60px;
+}
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.hosting {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+.hosting .wrapper {
+    display:flex;
+    justify-content: space-around;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+.content h1 {
+    margin-bottom: 30px;
+}
+.content .btn {
+    margin: 30px 0;
+    display: block;
+    background-color: #4861df;
+    padding: 10px 70px;
+    border-radius: 30px;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.card-list {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    width: 45%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, .2);
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+}
+.card h3 {
+    font-size: 30px;
+    color: #4861df;
+    margin-bottom: 20px;
+}
+.card p {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.avatar {
+    color: #4861df;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px;
+    background-color: #ebeefc;
+    border-radius: 50%;
+}
+.icons {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(116, 133, 221) !important;
+}
+.btn-text {
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid #4861df;
+}
