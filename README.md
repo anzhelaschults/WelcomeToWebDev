@@ -7,7 +7,7 @@ Just a reminder for myself how it started 😇
 
 And soon lets see how its going 🏄‍♀️
 
-HTML CSS CHALLANGES sneak peak:
+HTML CSS CHALLANGES sneak peek:
 
 
 <img width="1410" alt="Screenshot 2021-10-17 at 22 12 47" src="https://user-images.githubusercontent.com/59295431/137643517-761f4a63-b0d1-41bb-86ef-86778dfab659.png">
